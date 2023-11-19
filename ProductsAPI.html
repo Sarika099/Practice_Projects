@@ -1,0 +1,6 @@
+<script>
+    async function ProductsAPI(){
+        var product_data= fetch('https://fakestoreapi.com/products')
+        console.log(await(await product_data).json())
+    }
+</script>

@@ -1,0 +1,6 @@
+<script>
+    async function CommentAPI(){
+        var comment_data= fetch('https://jsonplaceholder.typicode.com/comments')
+        console.log(await(await comment_data).json())
+    }
+</script>
