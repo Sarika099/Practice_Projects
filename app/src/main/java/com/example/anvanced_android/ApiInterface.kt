@@ -9,5 +9,5 @@ interface CommentApiInterface {
 
     //Flipkart API
     @GET("products")
-    fun getFlipkartData(): Call<List<Products>>
+    fun getFlipkartData(): Call<ArrayList<Products>>
 }
